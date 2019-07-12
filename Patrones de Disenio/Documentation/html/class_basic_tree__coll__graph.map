@@ -1,0 +1,7 @@
+<map id="BasicTree" name="BasicTree">
+<area shape="rect" id="node1" title=" " alt="" coords="121,95,201,121"/>
+<area shape="rect" id="node2" href="$class_t_builder.html" title=" " alt="" coords="5,5,75,32"/>
+<area shape="rect" id="node3" href="$class_leaf.html" title=" " alt="" coords="99,5,146,32"/>
+<area shape="rect" id="node4" href="$class_branch.html" title=" " alt="" coords="170,5,233,32"/>
+<area shape="rect" id="node5" href="$class_trunk.html" title=" " alt="" coords="257,5,311,32"/>
+</map>

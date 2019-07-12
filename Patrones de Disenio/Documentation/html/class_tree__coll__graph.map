@@ -1,0 +1,8 @@
+<map id="Tree" name="Tree">
+<area shape="rect" id="node1" title=" " alt="" coords="121,171,168,197"/>
+<area shape="rect" id="node2" href="$class_leaf.html" title=" " alt="" coords="5,81,52,108"/>
+<area shape="rect" id="node3" href="$class_branch.html" title=" " alt="" coords="76,81,139,108"/>
+<area shape="rect" id="node4" href="$class_colort.html" title=" " alt="" coords="163,81,219,108"/>
+<area shape="rect" id="node5" href="$class_colors.html" title=" " alt="" coords="162,5,221,32"/>
+<area shape="rect" id="node6" href="$class_trunk.html" title=" " alt="" coords="244,81,299,108"/>
+</map>

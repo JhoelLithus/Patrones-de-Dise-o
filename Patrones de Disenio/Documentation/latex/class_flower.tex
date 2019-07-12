@@ -1,0 +1,112 @@
+\hypertarget{class_flower}{}\section{Referencia de la Clase Flower}
+\label{class_flower}\index{Flower@{Flower}}
+
+
+{\ttfamily \#include $<$Flower.\+h$>$}
+
+
+
+Diagrama de colaboración para Flower\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{class_flower__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_flower_a24f3f77559b3a76509febf7392413ff7}{Flower}} ()
+\item 
+void \mbox{\hyperlink{class_flower_aa25ad2aeb15804fa1f7bc0064ae0e8f1}{Draw}} (\mbox{\hyperlink{class_turtle}{Turtle}} \mbox{\hyperlink{_abstract_8cpp_a87833ae07d42f160626b6355cd9f8cf0}{t}}, double x, double y)
+\begin{DoxyCompactList}\small\item\em La funcion Draw de la clase \mbox{\hyperlink{class_flower}{Flower}} dibuja el petalo y el estigma de una flor. con la Libreria \mbox{\hyperlink{class_turtle}{Turtle}}, la cual ya fue creada anteriormente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_flower_a63947d23866ea55e132c1744caf63b19}{Paintx}} (char color)
+\end{DoxyCompactItemize}
+\subsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_petal}{Petal}} $\ast$ \mbox{\hyperlink{class_flower_af0f1dc8c951cb056cf77409ca06d96f7}{petal}}
+\begin{DoxyCompactList}\small\item\em La clase flower llama a las clases, las cuales contiene; porque una flor esta compuestos de petalos y estigma. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_stigma}{Stigma}} $\ast$ \mbox{\hyperlink{class_flower_a691f3890594faacb64c9cea88be1c8d0}{stigma}}
+\end{DoxyCompactItemize}
+\subsection*{Atributos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_colorf}{Colorf}} $\ast$ \mbox{\hyperlink{class_flower_a4d27938dc8f29b7311a8a31093cb5ce4}{colorimpl}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Declaracion de la Clase \mbox{\hyperlink{class_flower}{Flower}}\+: La cual declara los dato P\+U\+B\+L\+I\+C\+OS \char`\"{} Declara las funcion que seran utilizadas por el usuario \char`\"{}. La clase \mbox{\hyperlink{class_flower}{Flower}} contiene a las clases \mbox{\hyperlink{class_petal}{Petal}} y \mbox{\hyperlink{class_stigma}{Stigma}}. porque una flor esta compuesta por petalos y un estigma. 
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_flower_a24f3f77559b3a76509febf7392413ff7}\label{class_flower_a24f3f77559b3a76509febf7392413ff7}} 
+\index{Flower@{Flower}!Flower@{Flower}}
+\index{Flower@{Flower}!Flower@{Flower}}
+\subsubsection{\texorpdfstring{Flower()}{Flower()}}
+{\footnotesize\ttfamily Flower\+::\+Flower (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_flower_aa25ad2aeb15804fa1f7bc0064ae0e8f1}\label{class_flower_aa25ad2aeb15804fa1f7bc0064ae0e8f1}} 
+\index{Flower@{Flower}!Draw@{Draw}}
+\index{Draw@{Draw}!Flower@{Flower}}
+\subsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Flower\+::\+Draw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_turtle}{Turtle}}}]{t,  }\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+La funcion Draw de la clase \mbox{\hyperlink{class_flower}{Flower}} dibuja el petalo y el estigma de una flor. con la Libreria \mbox{\hyperlink{class_turtle}{Turtle}}, la cual ya fue creada anteriormente. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em \mbox{\hyperlink{class_turtle}{Turtle}}} & t -\/$>$ Llama a la clase \mbox{\hyperlink{class_turtle}{Turtle}} para que utilice las diferentes funciones de esta clase solo en esta funcion. \\
+\hline
+\end{DoxyParams}
+petal-\/$>$Draw(t) -\/$>$ Llama a funcion Draw de la clase \mbox{\hyperlink{class_petal}{Petal}}
+
+stigma-\/$>$Draw(t) -\/$>$ Llama a funcion Draw de la clase \mbox{\hyperlink{class_petal}{Petal}} \mbox{\Hypertarget{class_flower_a63947d23866ea55e132c1744caf63b19}\label{class_flower_a63947d23866ea55e132c1744caf63b19}} 
+\index{Flower@{Flower}!Paintx@{Paintx}}
+\index{Paintx@{Paintx}!Flower@{Flower}}
+\subsubsection{\texorpdfstring{Paintx()}{Paintx()}}
+{\footnotesize\ttfamily void Flower\+::\+Paintx (\begin{DoxyParamCaption}\item[{char}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{class_flower_a4d27938dc8f29b7311a8a31093cb5ce4}\label{class_flower_a4d27938dc8f29b7311a8a31093cb5ce4}} 
+\index{Flower@{Flower}!colorimpl@{colorimpl}}
+\index{colorimpl@{colorimpl}!Flower@{Flower}}
+\subsubsection{\texorpdfstring{colorimpl}{colorimpl}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_colorf}{Colorf}}$\ast$ Flower\+::colorimpl\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_flower_af0f1dc8c951cb056cf77409ca06d96f7}\label{class_flower_af0f1dc8c951cb056cf77409ca06d96f7}} 
+\index{Flower@{Flower}!petal@{petal}}
+\index{petal@{petal}!Flower@{Flower}}
+\subsubsection{\texorpdfstring{petal}{petal}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_petal}{Petal}}$\ast$ Flower\+::petal}
+
+
+
+La clase flower llama a las clases, las cuales contiene; porque una flor esta compuestos de petalos y estigma. 
+
+En el \char`\"{} Public \char`\"{} van todas las funciones que el usuario va a utilizar
+\begin{DoxyParams}{Parámetros}
+{\em Petal$\ast$} & petal -\/$>$ Apunta a las direccion de la clases \mbox{\hyperlink{class_petal}{Petal}} y de sus funciones \\
+\hline
+{\em Stigma$\ast$} & stigma -\/$>$ Apunta a las direccion de la clases \mbox{\hyperlink{class_stigma}{Stigma}} y de sus funciones \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_flower_a691f3890594faacb64c9cea88be1c8d0}\label{class_flower_a691f3890594faacb64c9cea88be1c8d0}} 
+\index{Flower@{Flower}!stigma@{stigma}}
+\index{stigma@{stigma}!Flower@{Flower}}
+\subsubsection{\texorpdfstring{stigma}{stigma}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_stigma}{Stigma}}$\ast$ Flower\+::stigma}
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+User/\+Desktop/\+Final L\+P-\/3/\+Code/\mbox{\hyperlink{_flower_8h}{Flower.\+h}}\end{DoxyCompactItemize}

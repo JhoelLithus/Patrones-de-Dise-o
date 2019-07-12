@@ -1,0 +1,1 @@
+g++ -g -Wall Abstract.cpp -lopengl32 -lglu32 -lfreeglut

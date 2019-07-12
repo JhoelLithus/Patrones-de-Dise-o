@@ -1,0 +1,7 @@
+<map id="Flower" name="Flower">
+<area shape="rect" id="node1" title=" " alt="" coords="93,171,153,197"/>
+<area shape="rect" id="node2" href="$class_colorf.html" title=" " alt="" coords="7,81,62,108"/>
+<area shape="rect" id="node3" href="$class_colors.html" title=" " alt="" coords="5,5,64,32"/>
+<area shape="rect" id="node4" href="$class_stigma.html" title=" " alt="" coords="91,81,154,108"/>
+<area shape="rect" id="node5" href="$class_petal.html" title=" " alt="" coords="178,81,230,108"/>
+</map>

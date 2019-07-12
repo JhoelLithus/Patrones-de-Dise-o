@@ -1,0 +1,87 @@
+\hypertarget{class_tabla}{}\section{Referencia de la Clase Tabla}
+\label{class_tabla}\index{Tabla@{Tabla}}
+
+
+{\ttfamily \#include $<$Observer.\+h$>$}
+
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_tabla_a30892e5df0e41e88871809298362bbc4}{Tabla}} (float \mbox{\hyperlink{_abstract_8cpp_a78b43084be0dc0d22055a701994a2a9e}{px}}=0.\+0, float \mbox{\hyperlink{_abstract_8cpp_a709aad4619f93afb87fab238013812b2}{py}}=0.\+0)
+\item 
+void \mbox{\hyperlink{class_tabla_a3cb029beafb4bfca9c9df9a955863792}{attach}} (\mbox{\hyperlink{class_observer}{Observer}} $\ast$obs)
+\item 
+void \mbox{\hyperlink{class_tabla_a93caa15edb104673131a9970c8284034}{set\+XY}} (float \mbox{\hyperlink{_abstract_8cpp_a78b43084be0dc0d22055a701994a2a9e}{px}}, float \mbox{\hyperlink{_abstract_8cpp_a709aad4619f93afb87fab238013812b2}{py}}, int i)
+\item 
+void \mbox{\hyperlink{class_tabla_a5406268bade1eacd5e9aac2d7dfefea6}{setX}} (float \mbox{\hyperlink{_abstract_8cpp_a78b43084be0dc0d22055a701994a2a9e}{px}}, int i)
+\item 
+void \mbox{\hyperlink{class_tabla_a00156dd75bcd77389a6586f20e15a71c}{setY}} (float \mbox{\hyperlink{_abstract_8cpp_a709aad4619f93afb87fab238013812b2}{py}}, int i)
+\item 
+void \mbox{\hyperlink{class_tabla_a16815874f52762e6338c6cfa8b789663}{addpoint}} (float \mbox{\hyperlink{_abstract_8cpp_a78b43084be0dc0d22055a701994a2a9e}{px}}, float \mbox{\hyperlink{_abstract_8cpp_a709aad4619f93afb87fab238013812b2}{py}})
+\item 
+vector$<$ \mbox{\hyperlink{class_puntos}{Puntos}} $>$ \mbox{\hyperlink{class_tabla_adde65e47058aaa09ab20d450f713894a}{getpoints}} ()
+\item 
+void \mbox{\hyperlink{class_tabla_a6d72bb617a151e335756b0615269b81e}{notify}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+declaracion de la clase tabla en donde utilizamos la clase puntos para poder utilizarlos y meterlos a un vertor y poder accerder de esta manera a la ubicacion de cada nieve. 
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_tabla_a30892e5df0e41e88871809298362bbc4}\label{class_tabla_a30892e5df0e41e88871809298362bbc4}} 
+\index{Tabla@{Tabla}!Tabla@{Tabla}}
+\index{Tabla@{Tabla}!Tabla@{Tabla}}
+\subsubsection{\texorpdfstring{Tabla()}{Tabla()}}
+{\footnotesize\ttfamily Tabla\+::\+Tabla (\begin{DoxyParamCaption}\item[{float}]{px = {\ttfamily 0.0},  }\item[{float}]{py = {\ttfamily 0.0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_tabla_a16815874f52762e6338c6cfa8b789663}\label{class_tabla_a16815874f52762e6338c6cfa8b789663}} 
+\index{Tabla@{Tabla}!addpoint@{addpoint}}
+\index{addpoint@{addpoint}!Tabla@{Tabla}}
+\subsubsection{\texorpdfstring{addpoint()}{addpoint()}}
+{\footnotesize\ttfamily void Tabla\+::addpoint (\begin{DoxyParamCaption}\item[{float}]{px,  }\item[{float}]{py }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_tabla_a3cb029beafb4bfca9c9df9a955863792}\label{class_tabla_a3cb029beafb4bfca9c9df9a955863792}} 
+\index{Tabla@{Tabla}!attach@{attach}}
+\index{attach@{attach}!Tabla@{Tabla}}
+\subsubsection{\texorpdfstring{attach()}{attach()}}
+{\footnotesize\ttfamily void Tabla\+::attach (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_observer}{Observer}} $\ast$}]{obs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_tabla_adde65e47058aaa09ab20d450f713894a}\label{class_tabla_adde65e47058aaa09ab20d450f713894a}} 
+\index{Tabla@{Tabla}!getpoints@{getpoints}}
+\index{getpoints@{getpoints}!Tabla@{Tabla}}
+\subsubsection{\texorpdfstring{getpoints()}{getpoints()}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{class_puntos}{Puntos}}$>$ Tabla\+::getpoints (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_tabla_a6d72bb617a151e335756b0615269b81e}\label{class_tabla_a6d72bb617a151e335756b0615269b81e}} 
+\index{Tabla@{Tabla}!notify@{notify}}
+\index{notify@{notify}!Tabla@{Tabla}}
+\subsubsection{\texorpdfstring{notify()}{notify()}}
+{\footnotesize\ttfamily void Tabla\+::notify (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Creacion de la funcion notify de la clase \mbox{\hyperlink{class_tabla}{Tabla}}, es esta funcion quizas la mas importante de todas, porque nos perminte ver comportamiento de las demas clases cuando una de ellas cambia. \mbox{\Hypertarget{class_tabla_a5406268bade1eacd5e9aac2d7dfefea6}\label{class_tabla_a5406268bade1eacd5e9aac2d7dfefea6}} 
+\index{Tabla@{Tabla}!setX@{setX}}
+\index{setX@{setX}!Tabla@{Tabla}}
+\subsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily void Tabla\+::setX (\begin{DoxyParamCaption}\item[{float}]{px,  }\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_tabla_a93caa15edb104673131a9970c8284034}\label{class_tabla_a93caa15edb104673131a9970c8284034}} 
+\index{Tabla@{Tabla}!setXY@{setXY}}
+\index{setXY@{setXY}!Tabla@{Tabla}}
+\subsubsection{\texorpdfstring{setXY()}{setXY()}}
+{\footnotesize\ttfamily void Tabla\+::set\+XY (\begin{DoxyParamCaption}\item[{float}]{px,  }\item[{float}]{py,  }\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_tabla_a00156dd75bcd77389a6586f20e15a71c}\label{class_tabla_a00156dd75bcd77389a6586f20e15a71c}} 
+\index{Tabla@{Tabla}!setY@{setY}}
+\index{setY@{setY}!Tabla@{Tabla}}
+\subsubsection{\texorpdfstring{setY()}{setY()}}
+{\footnotesize\ttfamily void Tabla\+::setY (\begin{DoxyParamCaption}\item[{float}]{py,  }\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+User/\+Desktop/\+Final L\+P-\/3/\+Code/\mbox{\hyperlink{_observer_8h}{Observer.\+h}}\end{DoxyCompactItemize}
