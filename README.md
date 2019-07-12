@@ -49,7 +49,7 @@ freeglut en la siguiente direccion C:\MinGW\mingw32
  
  *****************************************************
  
- g++ -g -Wall Shape.cpp -lopengl32 -lglu32 -lfreeglut
+ g++ -g -Wall Abstract.cpp -lopengl32 -lglu32 -lfreeglut
 
 ******************************************************
 ## Instalacion Ubuntu ##
@@ -61,8 +61,7 @@ sudo apt install g++
 sudo apt-get install freeglut3-dev
 ********************************************************
 ##Finalmente ejecute:##
-g++ main.cpp plano.cpp -o gl -lGL -lGLU -lglut
-./gl
+g++ main.cpp Abstract.cpp -o gl -lGL -lGLU -lglut
 
 ********************************************************
 ## Para mayor informacion ingresar a los siguientes link ##
